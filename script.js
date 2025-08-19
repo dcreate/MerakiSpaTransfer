@@ -4,6 +4,9 @@ const $content=document.getElementById('texto'),
         $btn1=document.getElementById('btn1'),
         $content2=document.getElementById('texto2'),
         $btn2=document.getElementById('btn2'),
+        $content3=document.getElementById('texto3'),
+        $btn3=document.getElementById('btn3'),
+        
         $title=document.getElementById('title');
 
         $btn.addEventListener('click',e=>{
@@ -20,4 +23,9 @@ const $content=document.getElementById('texto'),
             $content2.select();
             document.execCommand('copy');
         $title.innerHTML='COPIADA CLABE!!!'
+        });
+        $btn3.addEventListener('click',e=>{
+            $content3.select();
+            document.execCommand('copy');
+        $title.innerHTML='COPIADO NOMBRE!!!'
         })
