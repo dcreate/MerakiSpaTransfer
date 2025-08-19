@@ -50,6 +50,7 @@ h1, h2{
         resize: none;
         padding: 10px;
         text-align: center;
+        font-size: 16px;
 }
 .container > button {
     display: flex;
