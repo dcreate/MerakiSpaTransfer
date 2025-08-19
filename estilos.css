@@ -49,6 +49,7 @@ h1, h2{
         width: 100%;
         resize: none;
         padding: 10px;
+        text-align: center;
 }
 .container > button {
     display: flex;
@@ -67,6 +68,7 @@ h1, h2{
 }
 
 .container > label {
+    text-align: center;
     font-weight: bold;
 }
 .container > button:hover{
