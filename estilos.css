@@ -66,6 +66,9 @@ h1, h2{
     transition: all .3s ease-in-out;
 }
 
+.container > label {
+    font-weight: bold;
+}
 .container > button:hover{
     background-color: #4b83e9e7;
 
